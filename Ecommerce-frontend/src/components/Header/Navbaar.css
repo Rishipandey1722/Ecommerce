@@ -1,0 +1,29 @@
+/* Navbaar.css */
+
+/* Override Bootstrap's default active link color */
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link.active:focus, 
+.navbar-dark .navbar-nav .nav-link.active:hover {
+  color: #fff;
+  background-color: #007bff; /* Active link background color */
+}
+
+/* Add some padding to the navbar links */
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+}
+
+/* Style the navbar brand */
+.navbar-brand {
+    font-weight: bold;
+  }
+  
+  /* Style the navbar toggler icon */
+  .navbar-toggler-icon {
+    border: 2px solid #fff;
+  }
+  
+  /* Adjust the hover effect on navbar links */
+  .navbar-nav .nav-link:hover {
+    color: #fff;
+  }

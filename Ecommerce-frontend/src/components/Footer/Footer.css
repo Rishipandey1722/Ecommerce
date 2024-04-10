@@ -1,0 +1,32 @@
+/* Footer.css */
+
+/* Style the footer container */
+.footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed; /* Fixed position to ensure it's always at the bottom */
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .container {
+    max-width: 100%; /* Set max-width to 100% to prevent overflow */
+    margin: 0 auto;
+    padding: 0 20px; /* Adjust padding as needed */
+  }
+  
+  /* Style the footer title */
+  .footer-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the footer text */
+  .footer-text {
+    font-size: 16px;
+  }
+      
