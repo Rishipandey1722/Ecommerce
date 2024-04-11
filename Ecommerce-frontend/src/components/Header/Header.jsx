@@ -1,10 +1,11 @@
 import React from 'react'   
-import Navbaar from './Navbar'
+import Navbaar from './Navbaar'
 
 const Header = () => {
   return (
-    <div>
+    <div >
         <Navbaar></Navbaar>
+        
     </div>
   )
 }

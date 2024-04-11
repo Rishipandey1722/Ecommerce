@@ -17,7 +17,7 @@ import com.ecommercebackend.entities.Product;
 import com.ecommercebackend.service.ProductService;
 
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/")
 public class HomeController {
@@ -33,7 +33,7 @@ public class HomeController {
 		
 	}
 	
-	@PostMapping("/addProduct")
+	@PostMapping
 	public ResponseEntity<Product> addNewProduct(@RequestBody Product product){
 		Product newProduct = this.productService.addNewProduct(product);
 		return new ResponseEntity<>(newProduct , HttpStatus.OK);
